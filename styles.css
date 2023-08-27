@@ -5,6 +5,7 @@ body {
     gap: 10px;
     margin: 0;
     padding: 0;
+    /* flex: 1; */
 }
 
 .buttons {
@@ -24,6 +25,7 @@ button {
     justify-content: center;
     margin: 0;
     padding: 0;
+    background-color: lightgray;
 }
 
 h1 {
@@ -31,7 +33,8 @@ h1 {
     padding: 8px;
 }
 
-.spielstand {
+.spielstand,
+.Gewinner {
     display: flex;
     justify-content: space-around;
     background-color: lightgray;
@@ -51,4 +54,15 @@ h1 {
 p {
     padding: 10px;
     margin: 0;
+}
+
+.Gewinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gewinn {
+    font-size: large;
+    font-weight: bold;
 }
